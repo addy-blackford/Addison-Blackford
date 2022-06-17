@@ -1,9 +1,14 @@
-.instagram{
- width:20%;   
+a{
+ color:#90ee90;
 }
 
-.github{
- width: 27%;   
+body{
+ background: #3a3b3c;
+ color: white;
+ font-family: verdana, sans-serif;
+ background-image: url("https://static.vecteezy.com/system/resources/thumbnails/002/623/592/small/striped-lines-diagonal-pattern-on-black-background-and-texture-abstract-dark-pattern-banner-design-you-can-use-for-cover-template-poster-banner-web-flyer-landing-page-print-ad-illustration-vector.jpg");
+ background-repeat: no-repeat;
+ background-size: 100%;
 }
 
 button{
@@ -15,7 +20,7 @@ button{
  padding: 15px;
  font-size: 120%;
  border-radius: 8px;
- border:solid green ;
+ border:solid #1db954 ;
  transition-duration: 0.4s;
  cursor: pointer;
 }
@@ -24,20 +29,32 @@ button:hover{
  background: green;   
 }
 
+.github{
+ width: 27%;   
+}
+
+
 .gmail{
  text-align: center;   
+}
+
+.instagram{
+ width:20%;   
 }
 
 h1{
  text-align: center;   
 }
 
-body{
- background: #3a3b3c;
- color: white;
- font-family: verdana, sans-serif;
+.socials{
+ text-align:center;   
 }
 
-a{
- color:#90ee90;
+.top{
+ float:right;
+ width: 20%;
+}
+
+.youtube{
+ width: 50%;   
 }
