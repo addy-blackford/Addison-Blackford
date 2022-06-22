@@ -1,3 +1,4 @@
+/* make title tags */
 a{
  color:#90ee90;
 }
@@ -6,14 +7,12 @@ body{
  background: #3a3b3c;
  color: white;
  font-family: verdana, sans-serif;
- background-image: url("https://static.vecteezy.com/system/resources/thumbnails/002/623/592/small/striped-lines-diagonal-pattern-on-black-background-and-texture-abstract-dark-pattern-banner-design-you-can-use-for-cover-template-poster-banner-web-flyer-landing-page-print-ad-illustration-vector.jpg");
- background-repeat: no-repeat;
- background-size: 100%;
+ text-align:center;
 }
 
 button{
  text-align: center;   
- width: 32%;
+ width: 100%;
  background:none;
  color: white;
  font-family: verdana, sans-serif;
@@ -26,11 +25,52 @@ button{
 }
 
 button:hover{
- background: green;   
+ background: #1db954;   
+ color:black;
 }
 
+.title{
+ color:#1db954;
+ padding:60px;
+ background-image:url(https://ak.picdn.net/shutterstock/videos/24700112/thumb/1.jpg);
+ background-repeat: no-repeat;
+ background-size:100%;
+}
+
+.top{
+ width: 13%;
+ border-radius:128px;
+}
+
+/* typing animation */
+.type{
+ overflow:hidden;
+ border-right: .125em solid white;
+ white-space: nowrap;
+ margin:0 auto;
+ letter-spacing:.25em;
+ animation: 
+     typing 4.5s 40,70, blink-caret .75s step-end infinite;
+}
+
+@keyframes typing{
+    from{width:0%;}
+    to{width: 35%;}
+}
+
+@keyframes blink-caret{
+    from{border-color: transparent;}
+    50%{border-color:white;}
+    to{ border-color:transparent;}
+}
+
+/* apps */
+.youtube{
+ width: 50%;  
+} 
+
 .github{
- width: 27%;   
+ width: 27%; 
 }
 
 
@@ -39,22 +79,5 @@ button:hover{
 }
 
 .instagram{
- width:20%;   
-}
-
-h1{
- text-align: center;   
-}
-
-.socials{
- text-align:center;   
-}
-
-.top{
- float:right;
- width: 20%;
-}
-
-.youtube{
- width: 50%;   
+ width:20%;  
 }
