@@ -2,27 +2,48 @@
 <html>
     <head>
         <title>Addison Blackford - Home</title>
+        <style>
+            .sidenav{
+            height: 100%; 
+  			width: 25%; 
+  			position: fixed;
+  			z-index: 1;
+  			top: 5;
+  			right: 0;
+            overflow-x: hidden;
+            padding-top: 20px;
+            }
+            .main{
+                margin-right:27%;
+            }
+        </style>
     </head>
     <body>
-        <button> About Me</button>
-        <button> My Hobbies</button>
-        <h1> About Me :)</h1>
-        <p> I'm going into 11<sup>th</sup> grade at Boonville High School. I really only discovered my love for computers about a year ago. I've always been interested in the way things work and I love being able to create something that shows my abilities. </p>
-        <h1> My Hobbies </h1>
-        <h4> Sports </h4>
-        <p> Honestly, I'm a bit of a jock. I love playing sports, even if I hate watching them. I've been involved in soccer since I could walk and got into tennis a few years ago. Now, I'm the varsity goalie and play tennis as a stress reliever.   </p>
-        <h4> Music </h4>
-        <p> I also play music and you can find videos of me playing under "My Music". Primarily, I play bass, but I started by playing ukelele. I've even tried out a bit of guitar in 2021, but I couldn't feel a connection to the instrument. As of September of 2021, I've been playing bass for the <a href="https://ema.mymusicstaff.com/" >Evansville Music Academy</a>'s Rock Band.  </p>
-        
-        <button class= "right"> My Music </button>
-        <button class="right"> CS Projects</button>
-        <button class="right"> My Future </button>
-        <h3 class="socials"> Where To Find Me: </h3>
-        <a href= "https://www.instagram.com/addy.blackford/"><img class="instagram" src= "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.png"></a>
-        <a href="https://github.com/addy-blackford"><img class="github" src="https://cdn.freebiesupply.com/logos/thumbs/2x/github-icon-1-logo.png"></a>
-        <a href="https://www.youtube.com/channel/UCjB-BsDsKClhdANXynthgQw"><img class="youtube" src="https://upload.wikimedia.org/wikipedia/commons/e/e1/Logo_of_YouTube_%282015-2017%29.svg"></a>
-        <button class="top"> ^Top </button>
-        <p class="gmail"> Gmail:</p>
-        <p class="gmail"> addisblackford@gmail.com </p>
+        <header>
+        <h1 class="title"> Addison Blackford </h1>
+        </header>
+        <nav class="sidenav">
+        	<button> My Music </button>
+        	<button> CS Projects</button>
+        	<button> My Future </button>
+        </nav>
+       <div class="main"> 
+        	<h3 class="type"> About Me :)</h3>
+        	<p> I'm going into 11<sup>th</sup> grade at Boonville High School. I really only discovered my love for computers about a year ago. I've always been interested in the way things work and I love being able to create something that shows my abilities. </p>
+        	<h3> My Hobbies </h3>
+           	<h4><em> Sports </em></h4>
+        	<p> Honestly, I'm a bit of a jock. I love playing sports, even if I hate watching them. I've been involved in soccer since I could walk and got into tennis a few years ago. Now, I'm the varsity goalie and play tennis as a stress reliever.   </p>
+        	<h4><em> Music </em></h4>
+        	<p> I also play music and you can find videos of me playing under "My Music". Primarily, I play bass, but I started by playing ukelele. I've even tried out a bit of guitar in 2021, but I couldn't feel a connection to the instrument. As of September of 2021, I've been playing bass for the <a href="https://ema.mymusicstaff.com/" >Evansville Music Academy</a>'s Rock Band.  </p>
+        	<h3 class="socials"> Where To Find Me: </h3>
+           <div class="apps">
+        	<a href= "https://www.instagram.com/addy.blackford/" target="_blank"><img alt="instagram logo" class="instagram" src= "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.png"></a>
+        	<a href="https://github.com/addy-blackford" target="_blank"><img alt="github logo" class="github" src="https://cdn.freebiesupply.com/logos/thumbs/2x/github-icon-1-logo.png"></a>
+        	<a href="https://www.youtube.com/channel/UCjB-BsDsKClhdANXynthgQw" target="_blank"><img alt="youtube logo" class="youtube" src="https://upload.wikimedia.org/wikipedia/commons/e/e1/Logo_of_YouTube_%282015-2017%29.svg"></a>
+           </div>
+       		<p class="gmail"> Gmail:</p>
+        	<p class="gmail"> addisblackford@gmail.com </p>   
+        	<button class="top"><strong> ^ </strong></button>
+        </div>
     </body>
 </html>
