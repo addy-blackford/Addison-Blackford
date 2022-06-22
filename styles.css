@@ -29,6 +29,10 @@ button:hover{
  color:black;
 }
 
+.buttontext{
+ color:white;   
+}
+
 .title{
  color:#1db954;
  padding:60px;
